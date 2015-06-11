@@ -1,0 +1,21 @@
+{
+  "name": "learning-laravel",
+  "version": "0.0.0",
+  "homepage": "https://github.com/axton21/learning-laravel",
+  "authors": [
+    "axton21 <axton_n@yahoo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.4"
+  }
+}

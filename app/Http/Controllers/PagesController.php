@@ -9,13 +9,17 @@ use App\Http\Controllers\Controller;
 
 class PagesController extends Controller
 {
-    public function index()
-    {
-      return view('pages.home');
-    }
+  public function about()
+  {
+    $first = 'Anton';
+    $last = 'Halim';
 
-    public function about()
-    {
-      return view('pages.about');
-    }
+    $things = [];
+    return view('pages.about', compact('first', 'last', 'things'));
+  }
+
+  public function contact()
+  {
+    return view('pages.contact');
+  }
 }
