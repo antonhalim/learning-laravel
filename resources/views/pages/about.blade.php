@@ -2,8 +2,8 @@
 
 @section('content')
 
-@if($first == 'someone')
-<h1>About Me {!! $first !!} {!! $last !!}</h1>
+@if($first == 'Anton')
+<h1>About Me</h1><h2>{!! $first !!} {!! $last !!}</h2> 
 @else
 <h1>Hey hey {!! $first !!} {!! $last !!}</h1>
 @endif

@@ -22,4 +22,13 @@ class PagesController extends Controller
   {
     return view('pages.contact');
   }
+
+  public function basic()
+  {
+    return view('pages.basic');
+  }
+  public function welcome()
+  {
+    return view('welcome');
+  }
 }

@@ -10,6 +10,12 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+Route::get('/','PagesController@welcome');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/about', 'PagesController@about');
+Route::get('/basic', 'PagesController@basic');
+
+Route::get('/articles', 'ArticlesController@index');
+Route::get('/articles/create', 'ArticlesController@create');
+Route::get('/articles/{id}', 'ArticlesController@show');
+Route::post('/articles', 'ArticlesController@store');
